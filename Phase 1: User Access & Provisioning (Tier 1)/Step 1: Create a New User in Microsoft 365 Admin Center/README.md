@@ -27,17 +27,18 @@ Simulate a critical Tier 1 support function: the efficient and accurate provisio
 
 ---
 
-#### 📸 User Profile Verification
+### 📸 User Profile Verification
 
-![User Profile](./m365-create-user-profile-labadmin.jpg)
+![User Profile](./m365-user-profile.png)  
 *Visual confirmation of labadmin’s account details, including UPN, display name, and group membership.*
 
 ---
 
-#### 📸 License Assignment Confirmation
+### 📸 License Assignment Confirmation
 
-![License Assignment](./m365-license-assignment-labadmin.jpg)
+![License Assignment](./m365-license-assignment.png)  
 *Validates the successful E5 (no Teams) license assignment, crucial for service access.*
+
 
 ---
 
