@@ -37,9 +37,8 @@ Simulate a critical Tier 1 support function: the efficient and accurate provisio
 
 ### 📸 License Assignment Confirmation
 
-![License Assignment](./m365-license-assignment.png)  
+![License Assignment](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%201:%20User%20Access%20&%20Provisioning%20(Tier%201)/Step%201:%20Create%20a%20New%20User%20in%20Microsoft%20365%20Admin%20Center/m365-license-assignment-labadmin.png?raw=true)  
 *Validates the successful E5 (no Teams) license assignment, crucial for service access.*
-
 
 ---
 
