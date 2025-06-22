@@ -29,8 +29,9 @@ Simulate a critical Tier 1 support function: the efficient and accurate provisio
 
 ### 📸 User Profile Verification
 
-![User Profile](./m365-user-profile.png)  
+![User Profile](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%201:%20User%20Access%20&%20Provisioning%20(Tier%201)/Step%201:%20Create%20a%20New%20User%20in%20Microsoft%20365%20Admin%20Center/m365-create-user-profile-labadmin.png?raw=true)  
 *Visual confirmation of labadmin’s account details, including UPN, display name, and group membership.*
+
 
 ---
 
