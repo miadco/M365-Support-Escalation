@@ -27,11 +27,13 @@ Simulate a high-frequency Tier 1 support scenario: securely resetting a user pas
 
 ### 📸 Password Reset Process
 
-**Password Reset Dialog**
-*Initiating a password reset for the user in Microsoft 365 Admin Center*\\
+**Password Reset Dialog**  
+*Initiating a password reset for the user in Microsoft 365 Admin Center*  
+![Password Reset Dialog](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%201:%20User%20Access%20&%20Provisioning%20(Tier%201)/Step%202%20%E2%80%93%20Microsoft%20365%20Password%20Reset%20Lab:%20labadmin%20Credential%20Management/m365-reset-password-dialog.png?raw=true)
 
-**Password Reset Confirmation**
-*Password reset confirmation showing the newly generated temporary password and sign-in requirement*\\
+**Password Reset Confirmation**  
+*Password reset confirmation showing the newly generated temporary password and sign-in requirement*  
+![Password Reset Confirmation](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%201:%20User%20Access%20&%20Provisioning%20(Tier%201)/Step%202%20%E2%80%93%20Microsoft%20365%20Password%20Reset%20Lab:%20labadmin%20Credential%20Management/m365-reset-password-confirmation.png?raw=true)
 
 ---
 
