@@ -1,6 +1,7 @@
 🔐 Step 4: Sign-In Logs Review & Account Lockout Simulation — labadmin Diagnostic Troubleshooting
 
 🌟 Objective
+
 This simulation replicates a Tier 1–2 escalation scenario involving an account lockout. Using Microsoft Entra ID, we simulate failed login attempts to trigger a lockout and then analyze sign-in logs to identify the root cause. This reinforces diagnostic skills required to respond to user access issues and potential credential compromise.
 
 🛠️ Tools & Technologies Utilized
@@ -44,7 +45,9 @@ Error validating credentials due to invalid username or password.\\
 * **Response Playbooks**: Recognizing patterns like error code `50126` allows support teams to route cases more efficiently or resolve autonomously.
 
 🧠 Final Thoughts
+
 Sign-in diagnostics offer powerful insight into access issues. Understanding how to interpret failure codes, device metadata, and sign-in patterns is a core skill I see on plenty of job descriptions so I wanted to make sure i showcased my skills here.
 
 👉 Proceed to Step 5: License Assignment
+
 Simulate license provisioning by adding or removing Microsoft 365 licenses for labadmin using the Admin Center interface.
