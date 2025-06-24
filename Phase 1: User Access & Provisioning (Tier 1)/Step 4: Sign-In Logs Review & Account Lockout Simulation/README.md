@@ -30,20 +30,26 @@ This simulation replicates a realistic Tier 1–2 escalation scenario involving 
 
 📸 **Account Lockout & Diagnostic Review Screenshots**
 
-**🔒 Lockout Screen**
-User is temporarily locked out after repeated failed sign-in attempts.\\
+**🔒 Lockout Screen**  
+User is temporarily locked out after repeated failed sign-in attempts.  
+![Account Lockout](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%201:%20User%20Access%20&%20Provisioning%20(Tier%201)/Step%204:%20Sign-In%20Logs%20Review%20&%20Account%20Lockout%20Simulation/m365-account-lockout-screen.png?raw=true)
 
-**🧾 Basic Log Info**
-Captured OS, browser, and app context from the failed sign-in.\\
+**🧾 Basic Log Info**  
+Captured OS, browser, and app context from the failed sign-in.  
+![Sign-In Basic Info](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%201:%20User%20Access%20&%20Provisioning%20(Tier%201)/Step%204:%20Sign-In%20Logs%20Review%20&%20Account%20Lockout%20Simulation/entra-signin-log-basic-info.png?raw=true)
 
-**🛠️ Diagnostic Panel**
-Microsoft Entra surfaced the lockout cause and flagged old credential submission.\\
+**🛠️ Diagnostic Panel**  
+Microsoft Entra surfaced the lockout cause and flagged old credential submission.  
+![Sign-In Diagnostic](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%201:%20User%20Access%20&%20Provisioning%20(Tier%201)/Step%204:%20Sign-In%20Logs%20Review%20&%20Account%20Lockout%20Simulation/entra-signin-diagnostic-results.png?raw=true)
 
-**🔍 Activity Metadata**
-Detailed session, app, and tenant-level metadata for the failed login.\\
+**🔍 Activity Metadata**  
+Detailed session, app, and tenant-level metadata for the failed login.  
+![Activity Metadata](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%201:%20User%20Access%20&%20Provisioning%20(Tier%201)/Step%204:%20Sign-In%20Logs%20Review%20&%20Account%20Lockout%20Simulation/entra-signin-log-activity-details.png?raw=true)
 
-**❌ Failure Reason – Error 50126**
-Sign-in failed due to incorrect credentials; commonly seen with typos or stale passwords.\\
+**❌ Failure Reason – Error 50126**  
+Sign-in failed due to incorrect credentials; commonly seen with typos or stale passwords.  
+![Error 50126](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%201:%20User%20Access%20&%20Provisioning%20(Tier%201)/Step%204:%20Sign-In%20Logs%20Review%20&%20Account%20Lockout%20Simulation/entra-signin-error-50126.png?raw=true)
+
 
 ---
 
