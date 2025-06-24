@@ -1,53 +1,64 @@
-🔐 Step 4: Sign-In Logs Review & Account Lockout Simulation — labadmin Diagnostic Troubleshooting
+🔐 **Step 4: Sign-In Logs Review & Account Lockout Simulation** — `labadmin` Diagnostic Troubleshooting
 
-🌟 Objective
+---
 
-This simulation replicates a Tier 1–2 escalation scenario involving an account lockout. Using Microsoft Entra ID, we simulate failed login attempts to trigger a lockout and then analyze sign-in logs to identify the root cause. This reinforces diagnostic skills required to respond to user access issues and potential credential compromise.
+🌟 **Objective**
+This simulation replicates a realistic Tier 1–2 escalation scenario involving an account lockout. Using Microsoft Entra ID, we simulate failed login attempts to trigger a lockout and then analyze sign-in logs to identify the root cause. This strengthens core diagnostic and access troubleshooting skills.
 
-🛠️ Tools & Technologies Utilized
+---
 
-* Microsoft Entra Admin Center – Used to access user sign-in logs
-* Sign-In Logs Panel – Provides detailed visibility into authentication attempts
-* IP Address and Device Metadata – Helps correlate repeated failures or suspicious behavior
-* Error Code & Diagnostic Layer – Interprets system feedback for actionable resolution
+🛠️ **Tools & Technologies Utilized**
 
-✅ Actions Performed & Key Outcomes
+* **Microsoft Entra Admin Center** — Interface for identity and access management
+* **Sign-In Logs Panel** — Detailed tracking of authentication attempts
+* **IP & Device Metadata** — Contextual information to investigate patterns or risk
+* **Error Codes & Diagnostic Layer** — Reveal sign-in failures and security flags
 
-| Task                         | Outcome / Detail                                                                                                        | Rationale / Best Practice Applied                                                      |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| Manual Lockout Triggered     | Repeated incorrect login attempts for `labadmin@micocoopergmail.onmicrosoft.com` resulted in temporary account lockout. | Simulated a realistic Tier 1 ticket scenario involving credential failure and lockout. |
-| Lockout Screen Verified      | Microsoft login screen confirmed lockout: *"Your account is temporarily locked to prevent unauthorized use."*           | Validated account status and reproduced error message for user-side awareness.         |
-| Sign-In Log Accessed         | Navigated to **Users → labadmin → Sign-in logs** in Entra Admin Center.                                                 | Proactively accessed diagnostic logs to identify cause and history of failure.         |
-| Diagnostic Insights Reviewed | Entra diagnostic results indicated repeated credential failures and sign-in error code **50126**.                       | Demonstrated interpretation of system feedback to isolate error origin.                |
-| Metadata Correlated          | Logged IP address, OS, browser client, and session data to confirm legitimate activity.                                 | Confirmed whether issue was localized or indicated potential compromise.               |
+---
 
-📸 Account Lockout & Diagnostic Review Screenshots
+✅ **Actions Performed & Key Outcomes**
 
-**Lockout Screen**
-User is temporarily locked out due to multiple failed sign-in attempts.\\
+| **Task**                     | **Outcome / Detail**                                                                                                      | **Rationale / Best Practice Applied**                                                   |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Manual Lockout Triggered     | Repeated incorrect login attempts for `labadmin@micocoopergmail.onmicrosoft.com` resulted in a temporary account lockout. | Simulated a realistic Tier 1 scenario involving credential failure and lockout.         |
+| Lockout Screen Verified      | Microsoft login screen confirmed lockout: *"Your account is temporarily locked to prevent unauthorized use."*             | Reproduced user error for visibility and downstream troubleshooting.                    |
+| Sign-In Log Accessed         | Navigated to **Users → labadmin → Sign-in logs** in Entra Admin Center.                                                   | Accessed logs to determine failure timeline and correlate potential risk.               |
+| Diagnostic Insights Reviewed | Entra results showed repeated failures and error code **50126** (invalid credentials).                                    | Identified error patterns and user behavior through automated insights.                 |
+| Metadata Correlated          | Reviewed IP address, OS, client app, and session ID across failed attempts.                                               | Confirmed logins originated from the correct region and device, eliminating compromise. |
 
-**Basic Log Info**
-Captured details from the failed login attempt including device, OS, and client type.\\
+---
 
-**Diagnostic Panel**
-Microsoft Entra diagnostic tool flags repeated failures and potential stale password use.\\
+📸 **Account Lockout & Diagnostic Review Screenshots**
 
-**Activity Metadata**
-Extended metadata including app ID, session ID, tenant IDs, and resource logs.\\
+**🔒 Lockout Screen**
+User is temporarily locked out after repeated failed sign-in attempts.\\
 
-**Failure Reason – Error 50126**
-Error validating credentials due to invalid username or password.\\
+**🧾 Basic Log Info**
+Captured OS, browser, and app context from the failed sign-in.\\
 
-💠 Key Learnings & Strategic Insights
+**🛠️ Diagnostic Panel**
+Microsoft Entra surfaced the lockout cause and flagged old credential submission.\\
 
-* **Tier 1 Impact**: Account lockouts are among the most common daily support escalations—mastery of sign-in logs ensures rapid, evidence-based resolution.
-* **Root Cause Isolation**: IP and client context help distinguish between user error, automation loops, or unauthorized attempts.
-* **Response Playbooks**: Recognizing patterns like error code `50126` allows support teams to route cases more efficiently or resolve autonomously.
+**🔍 Activity Metadata**
+Detailed session, app, and tenant-level metadata for the failed login.\\
 
-🧠 Final Thoughts
+**❌ Failure Reason – Error 50126**
+Sign-in failed due to incorrect credentials; commonly seen with typos or stale passwords.\\
 
-Sign-in diagnostics offer powerful insight into access issues. Understanding how to interpret failure codes, device metadata, and sign-in patterns is a core skill I see on plenty of job descriptions so I wanted to make sure i showcased my skills here.
+---
 
-👉 Proceed to Step 5: License Assignment
+💠 **Key Learnings & Strategic Insights**
 
-Simulate license provisioning by adding or removing Microsoft 365 licenses for labadmin using the Admin Center interface.
+* **Tier 1 Relevance**: Account lockouts are one of the most frequent real-world escalations.
+* **Context Matters**: IPs, browsers, and OS logs provide crucial context to assess user intent vs. threat.
+* **Pattern Recognition**: Error codes like `50126` become repeat indicators—speeding up triage.
+
+---
+
+🧠 **Final Thoughts**\\
+
+There are so many logs auditing tools in Entra. Finding the one that gets you the information that you need is sometimes a challenge for me. This lab gives me more exposure to finding the logs i need and how to interpret the data to make decisions that improve security and administrative posture
+
+👉 **Proceed to Step 5: License Assignment**\\
+
+Simulate license provisioning by assigning or removing Microsoft 365 licenses for `labadmin` using the Admin Center interface.
