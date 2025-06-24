@@ -21,11 +21,14 @@ This simulation documents a critical identity hardening task by reviewing and co
 
 📸 Authentication Management Process Screenshots
 
-**MFA Reset Prompt**
-*Triggering MFA re-registration for **********************`labadmin`********************** to simulate support-side reset of multi-factor authentication in Microsoft Entra ID.*\\
+**MFA Reset Prompt**  
+*Triggering MFA re-registration for `labadmin` to simulate support-side reset of multi-factor authentication in Microsoft Entra ID.*  
+![MFA Reset Prompt](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%201:%20User%20Access%20&%20Provisioning%20(Tier%201)/Step%203:%20Configure%20MFA/m365-labadmin-authentication-methods.png?raw=true)
 
-**MFA Add Method Menu**
-*Displaying available options when provisioning new MFA methods such as Phone, Email, Temporary Access Pass, and QR Code.*\\
+**MFA Add Method Menu**  
+*Displaying available options when provisioning new MFA methods such as Phone, Email, Temporary Access Pass, and QR Code.*  
+![MFA Add Method Menu](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%201:%20User%20Access%20&%20Provisioning%20(Tier%201)/Step%203:%20Configure%20MFA/m365-add-authentication-method-labadmin.png?raw=true)
+
 
 💠 Key Learnings & Strategic Insights
 
