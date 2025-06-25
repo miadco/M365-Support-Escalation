@@ -61,7 +61,7 @@ Sign-in failed due to incorrect credentials; commonly seen with typos or stale p
 
 ---
 
-🧠 **Final Thoughts**\\
+🧠 **Final Thoughts**
 
 There are so many logs auditing tools in Entra. Finding the one that gets you the information that you need is sometimes a challenge for me. This lab gives me more exposure to finding the logs i need and how to interpret the data to make decisions that improve security and administrative posture
 
