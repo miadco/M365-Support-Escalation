@@ -32,19 +32,21 @@ In this simulation, I worked through a Tier 1.5 help desk escalation involving b
 
 ---
 
-### 📸 Shared Mailbox Delegation & Send-As Test Screenshots
+### 📸 Screenshots
 
-📾 Mailbox Delegation (Full Access)
-Confirmed that `labadmin` had Full Access in the EAC.
-`phase2-shared-mailbox-fullaccess-confirmation.png`
+Below are key steps and confirmations captured during the shared mailbox setup and mail flow escalation process:
 
-🛠️ Mailbox Delegation (Send As)
-Send As rights confirmed via Mail delegation in EAC.
-`phase2-shared-mailbox-sendas-confirmation.png`
+#### ✅ Shared Mailbox Created in Exchange Admin Center (EAC)
+![Shared Mailbox Creation - EAC](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%202:%20Shared%20Mailbox%20Setup%20&%20Mail%20Flow/shared-mailbox-creation-eac.png?raw=true)
 
-📨 Outlook Send-As Verification
-Successfully sent a test email *from* the shared mailbox.
-`phase2-shared-mailbox-send-as-confirmation.png`
+#### 🔑 Full Access Permissions Assigned to labadmin
+![Shared Mailbox Full Access Confirmation](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%202:%20Shared%20Mailbox%20Setup%20&%20Mail%20Flow/shared-mailbox-fullaccess-confirmation.png?raw=true)
+
+#### ✉️ Send As Permissions Assigned to labadmin
+![Send As Permissions Confirmation](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%202:%20Shared%20Mailbox%20Setup%20&%20Mail%20Flow/shared-mailbox-sendas-confirmation.png?raw=true)
+
+#### 📥 Test Email Successfully Received by labadmin
+![Send As Email Received](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%202:%20Shared%20Mailbox%20Setup%20&%20Mail%20Flow/sendas-received-confirmation.png?raw=true)
 
 ---
 
