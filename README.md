@@ -1,105 +1,96 @@
-# 📂 Microsoft 365 Support Escalation Lab (Tier 1–2+ Expertise)
+# 🧩 Microsoft 365 Support Escalation Lab — Master README
 
-## 🧠 Overview
+## 📌 Overview
 
-This hands-on lab simulates a day in the life of an IT Support Specialist, providing practical experience in resolving realistic Microsoft 365 issues across Tier 1 and Tier 2+ levels. Each scenario mirrors an actual helpdesk ticket, ranging from basic access issues to advanced PowerShell automation and audit log analysis. My goal in building this project was to solidify and demonstrate comprehensive technical proficiency, a robust troubleshooting workflow, and best practices in documentation.
-
----
-
-## 🛠️ Technologies Used
-
-* Microsoft 365 Admin Center
-* Microsoft Entra ID (Azure AD)
-* Exchange Admin Center (EAC)
-* SharePoint & OneDrive Admin Centers
-* Microsoft Graph PowerShell SDK
-* Microsoft Support and Recovery Assistant (SaRA)
-* Microsoft Purview Compliance Portal
-* Outlook Web Access (OWA)
+This multi-phase lab simulates real-world scenarios across Tier 1 to Tier 2 Microsoft 365 support environments. Each phase was carefully designed to reflect common helpdesk escalations involving identity management, mail flow troubleshooting, and security incident response. Together, the phases demonstrate a progression of skills and tooling—from basic user provisioning to advanced compliance-based threat remediation.
 
 ---
 
-## 💼 Skills Demonstrated
+## 🔰 Phase 1: User Access & Provisioning (Tier 1)
 
-This lab provided a structured environment to hone critical support skills, directly translating to efficient problem-solving in a production environment:
+### 🎯 Objective
 
-### 🧩 Tier 1 (T1)
+Handle essential identity and access management tasks for end users, simulating high-frequency Tier 1 requests.
 
-* Password reset & MFA troubleshooting for diverse user scenarios
-* User provisioning and license assignment
-* Unlocking user accounts
-* Troubleshooting Outlook and Teams login issues
-* Basic mailbox storage resolution
+### 🔑 Key Tasks
 
-### 🧩 Tier 1.5
+* New user onboarding with Microsoft 365 Admin Center
+* Secure password reset protocols
+* MFA setup and re-registration
+* Account lockout investigation using Entra sign-in logs
 
-* Shared mailbox setup and permission delegation
-* Advanced message trace analysis and email header inspection for complex mail flow issues
+### 🧠 Skills Demonstrated
 
-### 🧩 Tier 2+
+* Provisioning & license assignment
+* Credential lifecycle support
+* MFA troubleshooting
+* Real-time log-based diagnostics
 
-* SharePoint permission troubleshooting for complex access control scenarios
-* OneDrive sync error diagnosis using SaRA and advanced logs
-* External sharing management and policy enforcement
-* Conditional Access policy review and impact analysis
-* Microsoft Graph PowerShell scripting for automation and advanced configuration
-* Audit log search and security insights for compliance and incident response
-* MFA sign-in log review and suspicious activity analysis for enhanced security posture
+➡️ [View Phase 1 README](./Phase%201%3A%20User%20Access%20%26%20Provisioning/README.md)
 
 ---
 
-## 🧪 Lab Structure
+## 📬 Phase 2: Mail Flow & Shared Mailbox Escalation (Tier 1.5)
 
-| Phase   | Title                                 | Tier     | Description                                             |
-| ------- | ------------------------------------- | -------- | ------------------------------------------------------- |
-| Phase 1 | User Access & Provisioning            | Tier 1   | Password resets, MFA enforcement, license assignment    |
-| Phase 2 | Mail Flow & Shared Mailboxes          | Tier 1.5 | Shared mailbox creation, delegate access, message trace |
-| Phase 3 | OneDrive & SharePoint                 | Tier 2   | Sync troubleshooting, permissions, external sharing     |
-| Phase 4 | Security Logs & PowerShell Automation | Tier 2+  | PowerShell scripting, MFA analysis, audit logs          |
+### 🎯 Objective
 
----
+Resolve mail delivery issues and shared mailbox access problems through delegated permissions, trace diagnostics, and header inspection.
 
-## 📸 Sample Screenshots
+### 🔑 Key Tasks
 
-<sub>Each lab phase includes relevant screenshots with captions, showing key steps and results for visual clarity.</sub>
+* Shared mailbox creation in Exchange Admin Center
+* Full Access & Send As permission assignment
+* Message trace analysis in Microsoft 365 Defender
+* Header-level inspection via Microsoft Header Analyzer
 
----
+### 🧠 Skills Demonstrated
 
-## 📁 Folder Structure
+* Delegated access troubleshooting
+* Mail flow diagnostics
+* Real-world delay simulation
+* End-to-end permission testing
 
-```
-.
-├── 01_UserAccess
-│   └── README.md
-├── 02_MailFlow
-│   └── README.md
-├── 03_FileAccess
-│   └── README.md
-├── 04_SecurityAnalysis
-│   └── README.md
-└── README.md
-```
+➡️ [View Phase 2 README](./Phase%202%3A%20Shared%20Mailbox%20Setup%20%26%20Mail%20Flow/README.md)
 
 ---
 
-## 🔄 How to Use This Repo
+## 🔐 Phase 3: Security & Compliance Escalation (Tier 2)
 
-* Navigate to any lab folder (e.g., `/02_MailFlow`) to view the full ticket scenario, detailed resolution steps, supporting screenshots, and relevant code.
-* All scripts are included where applicable for hands-on replication.
-* Markdown is used throughout for professional formatting and clarity.
+### 🎯 Objective
+
+Investigate a suspected account compromise and potential data exposure using log analysis, audit tools, and remediation workflows.
+
+### 🔑 Key Tasks
+
+* Review of failed sign-in attempts using Microsoft Entra ID
+* Audit log search configuration in Microsoft Purview
+* Validation of external file sharing via OneDrive
+* Rapid revocation of public access links
+
+### 🧠 Skills Demonstrated
+
+* Security incident triage and analysis
+* Layered investigation (log + GUI validation)
+* Realistic simulation of a data leak
+* Tier 2 remediation procedures
+
+➡️ [View Phase 3 README](./Phase%203%3A%20Security%20%26%20Compliance%20Escalation/README.md)
 
 ---
 
-## 🌱 Future Enhancements
+## 🎓 What This Lab Demonstrates
 
-* Add Intune device enrollment and compliance policy simulation
-* Microsoft Teams administration and troubleshooting scenarios
-* Endpoint DLP simulation with Microsoft Purview
-* Automated documentation generation from PowerShell logs
+* End-to-end lifecycle support: provisioning to escalation
+* Familiarity with key Microsoft 365 admin tools
+* Real-world incident simulation, not scripted walkthroughs
+* Job-ready Tier 1–2 troubleshooting workflow across identity, messaging, and compliance
 
 ---
 
-## 📌 Author
+## ✅ Next Steps
 
-**Michael A. Cooper**
-🔗 [GitHub](https://github.com/maywood2983u) | 🔗 [LinkedIn](https://linkedin.com/in/1michael-a-cooper)
+If you're a hiring manager, instructor, or collaborator reviewing this lab, explore the individual phase READMEs for full documentation, screenshots, PowerShell commands, and reflections.
+
+If you're building a support portfolio, this lab is a complete, interview-ready asset to showcase practical knowledge of Microsoft 365 in real-world helpdesk scenarios.
+
+---
