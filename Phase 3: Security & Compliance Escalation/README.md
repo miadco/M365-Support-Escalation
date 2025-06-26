@@ -1,4 +1,4 @@
-## 🔐 Step 4: Security & Compliance Escalation — labadmin Log Investigation + File Access Remediation
+## 📁 Step 3: Security & Compliance Escalation — labadmin Log Investigation + File Access Remediation
 
 ---
 
@@ -35,17 +35,38 @@ This simulation represents a realistic Tier 2 escalation scenario where a user r
 
 #### 📛 Failed Sign-in from Unusual Activity
 
+*Microsoft Entra sign-in details showing error 50053 (account lockout) for labadmin.*
+![Sign-in Failure Details – 50053](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%203:%20Security%20&%20Compliance%20Escalation/entra-signin-details-failure-50053.png?raw=true)
+
 #### 🧾 Full Sign-in Log Summary for labadmin
+
+*Filtered sign-in log displaying multiple failed and interrupted attempts.*
+![Sign-in Log Summary](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%203:%20Security%20&%20Compliance%20Escalation/entra-signin-log-summary-filtered.png?raw=true)
 
 #### 🔄 Unified Audit Log Search Configured in Purview
 
+*Scoped audit search configured for labadmin activity across OneDrive and SharePoint.*
+![Audit Log Search Configured](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%203:%20Security%20&%20Compliance%20Escalation/purview-auditlog-search-configured.png?raw=true)
+
 #### 🌐 OneDrive Link Set to “Anyone”
+
+*File sharing settings showing public access granted to “Anyone with the link.”*
+![External Link Sharing Enabled](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%203:%20Security%20&%20Compliance%20Escalation/onedrive-file-shared-link.png?raw=true)
 
 #### ✅ Public Sharing Confirmed via UI
 
+*Confirmation dialog showing link copied with edit access enabled.*
+![Link Copied Confirmation](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%203:%20Security%20&%20Compliance%20Escalation/onedrive-share-dialog-link-copied.png?raw=true)
+
 #### 🚫 Manage Access – Revocation in Progress
 
+*Manage Access panel showing the active public link prior to deletion.*
+![Access Revocation - Before](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%203:%20Security%20&%20Compliance%20Escalation/onedrive-access-revoked-confirmation.png?raw=true)
+
 #### 🧹 Confirmation of Link Deletion
+
+*Final confirmation dialog for removing external access to the document.*
+![Link Deletion Confirmation](https://github.com/miadco/M365-Support-Escalation/blob/main/Phase%203:%20Security%20&%20Compliance%20Escalation/onedrive-delete-link-confirmation.png?raw=true)
 
 ---
 
