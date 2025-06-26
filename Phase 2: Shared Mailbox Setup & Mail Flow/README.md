@@ -1,4 +1,4 @@
-## 📬 Step 2: Mail Flow & Shared Mailbox Escalation — labadmin Diagnostic + Delegation
+## 📬 Phase 2: Mail Flow & Shared Mailbox Escalation — labadmin Diagnostic + Delegation
 
 ---
 
